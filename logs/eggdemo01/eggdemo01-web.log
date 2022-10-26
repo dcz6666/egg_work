@@ -1,0 +1,1624 @@
+2022-10-23 15:44:52,577 ERROR 6476 [-/127.0.0.1/-/6ms GET /news] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:69:39)
+    at async NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:8:9)
+    at async E:\前端\egg_demo\eggdemo01\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\前端\egg_demo\eggdemo01\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (E:\前端\egg_demo\eggdemo01\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 6476
+hostname: 大成子
+
+2022-10-23 15:45:21,474 ERROR 34868 [-/127.0.0.1/-/6ms GET /news] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:69:39)
+    at async NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:8:9)
+    at async E:\前端\egg_demo\eggdemo01\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\前端\egg_demo\eggdemo01\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (E:\前端\egg_demo\eggdemo01\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 34868
+hostname: 大成子
+
+2022-10-23 15:45:41,066 ERROR 14784 [-/127.0.0.1/-/5ms GET /news] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:69:39)
+    at async NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:8:9)
+    at async E:\前端\egg_demo\eggdemo01\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\前端\egg_demo\eggdemo01\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (E:\前端\egg_demo\eggdemo01\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14784
+hostname: 大成子
+
+2022-10-23 15:48:18,490 ERROR 18956 [-/127.0.0.1/-/4ms GET /news] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:69:39)
+    at async NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:8:9)
+    at async E:\前端\egg_demo\eggdemo01\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\前端\egg_demo\eggdemo01\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (E:\前端\egg_demo\eggdemo01\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 18956
+hostname: 大成子
+
+2022-10-23 15:48:20,414 ERROR 18956 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:69:39)
+    at async NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:8:9)
+    at async E:\前端\egg_demo\eggdemo01\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\前端\egg_demo\eggdemo01\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (E:\前端\egg_demo\eggdemo01\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 18956
+hostname: 大成子
+
+2022-10-23 15:48:22,313 ERROR 18956 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:69:39)
+    at async NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:8:9)
+    at async E:\前端\egg_demo\eggdemo01\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\前端\egg_demo\eggdemo01\node_modules\_koa-session@6.2.0@koa-session\index.js:41:7)
+    at async bodyParser (E:\前端\egg_demo\eggdemo01\node_modules\_koa-bodyparser@4.3.0@koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 18956
+hostname: 大成子
+
+2022-10-23 16:23:58,692 ERROR 43596 [-/127.0.0.1/-/4ms GET /news] nodejs.TypeError: this.service.news.NewsService is not a function
+    at NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:9:44)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 43596
+hostname: 大成子
+
+2022-10-23 16:24:42,782 ERROR 13240 [-/127.0.0.1/-/4ms GET /news] nodejs.TypeError: this.service.news.NewsService is not a function
+    at NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:9:44)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 13240
+hostname: 大成子
+
+2022-10-23 16:24:58,195 ERROR 1888 [-/127.0.0.1/-/5ms GET /news] nodejs.TypeError: this.service.news.NewsService is not a function
+    at NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:9:44)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 1888
+hostname: 大成子
+
+2022-10-23 16:25:50,753 ERROR 40356 [-/127.0.0.1/-/12ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 40356
+hostname: 大成子
+
+2022-10-23 16:25:55,465 ERROR 40356 [-/127.0.0.1/-/3ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 40356
+hostname: 大成子
+
+2022-10-23 16:26:59,667 ERROR 42616 [-/127.0.0.1/-/9ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 42616
+hostname: 大成子
+
+2022-10-23 16:27:28,686 ERROR 42616 [-/127.0.0.1/-/4ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 42616
+hostname: 大成子
+
+2022-10-23 16:27:31,291 ERROR 42616 [-/127.0.0.1/-/2ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 42616
+hostname: 大成子
+
+2022-10-23 16:29:47,844 ERROR 7516 [-/127.0.0.1/-/10ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 7516
+hostname: 大成子
+
+2022-10-23 16:30:43,381 ERROR 41524 [-/127.0.0.1/-/8ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 41524
+hostname: 大成子
+
+2022-10-23 16:30:53,269 ERROR 42340 [-/127.0.0.1/-/5ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 42340
+hostname: 大成子
+
+2022-10-23 16:30:59,407 ERROR 41352 [-/127.0.0.1/-/6ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 41352
+hostname: 大成子
+
+2022-10-23 16:31:19,305 ERROR 41352 [-/127.0.0.1/-/2ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 41352
+hostname: 大成子
+
+2022-10-23 16:31:33,992 ERROR 26424 [-/127.0.0.1/-/8ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 26424
+hostname: 大成子
+
+2022-10-23 16:31:49,953 ERROR 39404 [-/127.0.0.1/-/6ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 39404
+hostname: 大成子
+
+2022-10-23 16:32:34,969 ERROR 35612 [-/127.0.0.1/-/7ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 35612
+hostname: 大成子
+
+2022-10-23 16:33:37,342 ERROR 29108 [-/127.0.0.1/-/5ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 29108
+hostname: 大成子
+
+2022-10-23 16:33:53,400 ERROR 3372 [-/127.0.0.1/-/5ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 3372
+hostname: 大成子
+
+2022-10-23 16:34:24,207 ERROR 41700 [-/127.0.0.1/-/5ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 41700
+hostname: 大成子
+
+2022-10-23 16:34:26,129 ERROR 41700 [-/127.0.0.1/-/2ms GET /news] nodejs.SyntaxError: Invalid or unexpected token in E:\前端\egg_demo\eggdemo01\app\view\news.html while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:673:12)
+    at Object.compile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:398:16)
+    at handleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:235:18)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:16)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+
+pid: 41700
+hostname: 大成子
+
+2022-10-23 17:24:13,944 ERROR 44440 [-/127.0.0.1/-/4ms GET /news] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\news.html:12
+    10|     <h2>测试</h2>
+    11|     <ul>
+ >> 12|         <% for(var i=0;i<list.length;i++){%>
+    13|             <li><%=list[i]%></li>
+    14|         <%}%>
+    15|     </ul>
+
+list is not defined
+    10|     <h2>测试</h2>
+    11|     <ul>
+ >> 12|         <% for(var i=0;i<list.length;i++){%>
+    13|             <li><%=list[i]%></li>
+    14|         <%}%>
+    15|     </ul>
+
+list is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\news.html":12:22)
+    at news (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:11:9)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\news.html"
+pid: 44440
+hostname: 大成子
+
+2022-10-23 17:24:32,955 ERROR 44440 [-/127.0.0.1/-/3ms GET /news] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\news.html:12
+    10|     <h2>测试</h2>
+    11|     <ul>
+ >> 12|         <%for(var i=0;i<list.length;i++){%>
+    13|             <li><%=list[i]%></li>
+    14|         <%}%>
+    15|     </ul>
+
+list is not defined
+    10|     <h2>测试</h2>
+    11|     <ul>
+ >> 12|         <%for(var i=0;i<list.length;i++){%>
+    13|             <li><%=list[i]%></li>
+    14|         <%}%>
+    15|     </ul>
+
+list is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\news.html":12:21)
+    at news (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:11:9)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\news.html"
+pid: 44440
+hostname: 大成子
+
+2022-10-23 17:25:01,175 ERROR 44440 [-/127.0.0.1/-/5ms GET /news] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\news.html:12
+    10|     <h2>测试</h2>
+    11|     <ul>
+ >> 12|         <!-- <%for(var i=0;i<list.length;i++){%>
+    13|             <li><%=list[i]%></li>
+    14|         <%}%> -->
+    15|     </ul>
+
+list is not defined
+    10|     <h2>测试</h2>
+    11|     <ul>
+ >> 12|         <!-- <%for(var i=0;i<list.length;i++){%>
+    13|             <li><%=list[i]%></li>
+    14|         <%}%> -->
+    15|     </ul>
+
+list is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\news.html":12:21)
+    at news (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:11:9)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\news.html"
+pid: 44440
+hostname: 大成子
+
+2022-10-23 17:25:03,659 ERROR 44440 [-/127.0.0.1/-/2ms GET /news] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\news.html:12
+    10|     <h2>测试</h2>
+    11|     <ul>
+ >> 12|         <!-- <%for(var i=0;i<list.length;i++){%>
+    13|             <li><%=list[i]%></li>
+    14|         <%}%> -->
+    15|     </ul>
+
+list is not defined
+    10|     <h2>测试</h2>
+    11|     <ul>
+ >> 12|         <!-- <%for(var i=0;i<list.length;i++){%>
+    13|             <li><%=list[i]%></li>
+    14|         <%}%> -->
+    15|     </ul>
+
+list is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\news.html":12:21)
+    at news (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:11:9)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\news.html"
+pid: 44440
+hostname: 大成子
+
+2022-10-23 17:25:07,644 ERROR 44440 [-/127.0.0.1/-/2ms GET /news] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\news.html:12
+    10|     <h2>测试</h2>
+    11|     <ul>
+ >> 12|         <!-- <%for(var i=0;i<list.length;i++){%>
+    13|             <li><%=list[i]%></li>
+    14|         <%}%> -->
+    15|     </ul>
+
+list is not defined
+    10|     <h2>测试</h2>
+    11|     <ul>
+ >> 12|         <!-- <%for(var i=0;i<list.length;i++){%>
+    13|             <li><%=list[i]%></li>
+    14|         <%}%> -->
+    15|     </ul>
+
+list is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\news.html":12:21)
+    at news (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:11:9)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\news.html"
+pid: 44440
+hostname: 大成子
+
+2022-10-23 17:25:09,522 ERROR 44440 [-/127.0.0.1/-/1ms GET /news] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\news.html:12
+    10|     <h2>测试</h2>
+    11|     <ul>
+ >> 12|         <!-- <%for(var i=0;i<list.length;i++){%>
+    13|             <li><%=list[i]%></li>
+    14|         <%}%> -->
+    15|     </ul>
+
+list is not defined
+    10|     <h2>测试</h2>
+    11|     <ul>
+ >> 12|         <!-- <%for(var i=0;i<list.length;i++){%>
+    13|             <li><%=list[i]%></li>
+    14|         <%}%> -->
+    15|     </ul>
+
+list is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\news.html":12:21)
+    at news (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async NewsController.index (E:\前端\egg_demo\eggdemo01\app\controller\news.js:11:9)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\news.html"
+pid: 44440
+hostname: 大成子
+
+2022-10-23 17:46:18,215 ERROR 44812 [-/127.0.0.1/-/21ms GET /news] nodejs.RequestError: getaddrinfo ENOTFOUND undefinedappapi.php, GET http://undefinedappapi.php?a=getPortalList&catid=20&page=1 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"undefinedappapi.php:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+errno: -3008
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "undefinedappapi.php"
+name: "RequestError"
+data: undefined
+path: "/?a=getPortalList&catid=20&page=1"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":15,"keepAliveSocket":false,"requestUrls":["http://undefinedappapi.php/?a=getPortalList&catid=20&page=1"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 44812
+hostname: 大成子
+
+2022-10-23 18:08:26,297 ERROR 50516 [-/127.0.0.1/-/0ms GET /newscontent?aid=507] nodejs.TypeError: this.query is not a function
+    at NewsController.content (E:\前端\egg_demo\eggdemo01\app\controller\news.js:16:25)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 50516
+hostname: 大成子
+
+2022-10-23 21:37:02,137 ERROR 55676 [-/127.0.0.1/-/4ms GET /] nodejs.AssertionError: argument should be function
+    at Lifecycle.registerBeforeClose (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\lifecycle.js:114:5)
+    at Application.beforeClose (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\egg.js:272:20)
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:10:33)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 55676
+hostname: 大成子
+
+2022-10-23 21:37:04,944 ERROR 55676 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError: argument should be function
+    at Lifecycle.registerBeforeClose (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\lifecycle.js:114:5)
+    at Application.beforeClose (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\egg.js:272:20)
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:10:33)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 55676
+hostname: 大成子
+
+2022-10-23 21:37:44,090 ERROR 48724 [-/127.0.0.1/-/5ms GET /] nodejs.AssertionError: argument should be function
+    at Lifecycle.registerBeforeClose (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\lifecycle.js:114:5)
+    at Application.beforeClose (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\egg.js:272:20)
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:10:33)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 48724
+hostname: 大成子
+
+2022-10-23 21:47:34,724 ERROR 60020 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: this.app.getHost is not a function
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:13:34)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 60020
+hostname: 大成子
+
+2022-10-23 21:47:53,078 ERROR 62432 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: this.app.getHost is not a function
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:13:34)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 62432
+hostname: 大成子
+
+2022-10-23 22:09:11,858 ERROR 63360 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: this.ctx.request is not a function
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:16:34)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 63360
+hostname: 大成子
+
+2022-10-23 22:09:14,290 ERROR 63360 [-/127.0.0.1/-/3ms GET /] nodejs.TypeError: this.ctx.request is not a function
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:16:34)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 63360
+hostname: 大成子
+
+2022-10-23 22:09:40,612 ERROR 59576 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: this.ctx.foo1 is not a function
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:16:34)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 59576
+hostname: 大成子
+
+2022-10-24 22:45:25,303 ERROR 59480 [-/127.0.0.1/-/5ms GET /news] nodejs.TypeError: Cannot read properties of undefined (reading 'request')
+    at printDate (E:\前端\egg_demo\eggdemo01\app\middleware\forbidip.js:13:30)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at printDate (E:\前端\egg_demo\eggdemo01\app\middleware\printdate.js:12:15)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-development@2.7.0@egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at i18n (E:\前端\egg_demo\eggdemo01\node_modules\_egg-i18n@2.1.1@egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at dta (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\dta.js:12:12)
+
+pid: 59480
+hostname: 大成子
+
+2022-10-24 22:47:43,780 ERROR 63484 [-/127.0.0.1/-/6ms GET /news] nodejs.TypeError: Invalid character in statusMessage
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.writeHead (node:_http_server:323:11)
+    at ServerResponse._implicitHeader (node:_http_server:266:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at respond (E:\前端\egg_demo\eggdemo01\node_modules\_koa@2.13.4@koa\lib\application.js:270:16)
+    at handleResponse (E:\前端\egg_demo\eggdemo01\node_modules\_koa@2.13.4@koa\lib\application.js:166:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+code: "ERR_INVALID_CHAR"
+pid: 63484
+hostname: 大成子
+
+2022-10-24 22:47:48,931 ERROR 63484 [-/127.0.0.1/-/3ms GET /] nodejs.TypeError: Invalid character in statusMessage
+    at new NodeError (node:internal/errors:372:5)
+    at ServerResponse.writeHead (node:_http_server:323:11)
+    at ServerResponse._implicitHeader (node:_http_server:266:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at respond (E:\前端\egg_demo\eggdemo01\node_modules\_koa@2.13.4@koa\lib\application.js:270:16)
+    at handleResponse (E:\前端\egg_demo\eggdemo01\node_modules\_koa@2.13.4@koa\lib\application.js:166:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+code: "ERR_INVALID_CHAR"
+pid: 63484
+hostname: 大成子
+
+2022-10-24 23:26:48,293 WARN 55908 [-/127.0.0.1/-/25ms POST /add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-10-24 23:26:48,295 WARN 55908 [-/127.0.0.1/-/27ms POST /add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (E:\前端\egg_demo\eggdemo01\node_modules\_koa@2.13.4@koa\lib\context.js:97:11)
+    at Object.assertCsrf (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\app\extend\context.js:163:32)
+    at csrf (E:\前端\egg_demo\eggdemo01\node_modules\_egg-security@2.11.0@egg-security\lib\middlewares\csrf.js:39:9)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (E:\前端\egg_demo\eggdemo01\node_modules\_koa-session@6.2.0@koa-session\index.js:41:13)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at overrideMethod (E:\前端\egg_demo\eggdemo01\node_modules\_koa-override@3.0.0@koa-override\index.js:38:12)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 55908
+hostname: 大成子
+
+2022-10-25 07:18:51,758 ERROR 33984 [-/127.0.0.1/-/16ms POST /add?_csrf=fFEJwS6t-8O7RUMSfNl4lEvXNfLbZXLavx5M] nodejs.ReferenceError: ctx is not defined
+    at HomeController.add (E:\前端\egg_demo\eggdemo01\app\controller\home.js:23:7)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+
+pid: 33984
+hostname: 大成子
+
+2022-10-25 07:39:59,042 ERROR 65900 [-/127.0.0.1/-/6ms GET /] nodejs.AssertionError: argument value is invalid
+    at new Cookie (E:\前端\egg_demo\eggdemo01\node_modules\_egg-cookies@2.6.1@egg-cookies\lib\cookie.js:25:5)
+    at Cookies.set (E:\前端\egg_demo\eggdemo01\node_modules\_egg-cookies@2.6.1@egg-cookies\lib\cookies.js:124:20)
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:16:37)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 65900
+hostname: 大成子
+
+2022-10-25 07:40:21,910 ERROR 57980 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError: argument value is invalid
+    at new Cookie (E:\前端\egg_demo\eggdemo01\node_modules\_egg-cookies@2.6.1@egg-cookies\lib\cookie.js:25:5)
+    at Cookies.set (E:\前端\egg_demo\eggdemo01\node_modules\_egg-cookies@2.6.1@egg-cookies\lib\cookies.js:124:20)
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:16:21)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 57980
+hostname: 大成子
+
+2022-10-25 07:42:30,788 ERROR 45860 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError: argument value is invalid
+    at new Cookie (E:\前端\egg_demo\eggdemo01\node_modules\_egg-cookies@2.6.1@egg-cookies\lib\cookie.js:25:5)
+    at Cookies.set (E:\前端\egg_demo\eggdemo01\node_modules\_egg-cookies@2.6.1@egg-cookies\lib\cookies.js:124:20)
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:21:18)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 45860
+hostname: 大成子
+
+2022-10-25 07:43:05,197 ERROR 28388 [-/127.0.0.1/-/7ms GET /] nodejs.AssertionError: argument value is invalid
+    at new Cookie (E:\前端\egg_demo\eggdemo01\node_modules\_egg-cookies@2.6.1@egg-cookies\lib\cookie.js:25:5)
+    at Cookies.set (E:\前端\egg_demo\eggdemo01\node_modules\_egg-cookies@2.6.1@egg-cookies\lib\cookies.js:124:20)
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:21:18)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 28388
+hostname: 大成子
+
+2022-10-25 07:44:45,282 ERROR 65256 [-/127.0.0.1/-/5ms GET /] nodejs.AssertionError: argument value is invalid
+    at new Cookie (E:\前端\egg_demo\eggdemo01\node_modules\_egg-cookies@2.6.1@egg-cookies\lib\cookie.js:25:5)
+    at Cookies.set (E:\前端\egg_demo\eggdemo01\node_modules\_egg-cookies@2.6.1@egg-cookies\lib\cookies.js:124:20)
+    at HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:21:18)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_egg-core@4.26.1@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_@eggjs_router@2.0.1@@eggjs\router\lib\router.js:186:18
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: false
+expected: true
+operator: "=="
+pid: 65256
+hostname: 大成子
+
+2022-10-25 08:26:07,409 ERROR 20820 [-/127.0.0.1/-/5016ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://www.phonegap100.com/appapi.php?a=getPortalList&catid=20&page=1 -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (E:\前端\egg_demo\eggdemo01\node_modules\_urllib@2.40.0@urllib\lib\urllib.js:988:15)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/appapi.php?a=getPortalList&catid=20&page=1"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5008,"keepAliveSocket":false,"requestUrls":["http://www.phonegap100.com/appapi.php?a=getPortalList&catid=20&page=1"],"timing":null,"remoteAddress":"122.114.57.173","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 20820
+hostname: 大成子
+
+2022-10-25 23:08:26,144 ERROR 34988 [-/127.0.0.1/-/9ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+headerSent: true
+pid: 34988
+hostname: 大成子
+
+2022-10-25 23:09:57,107 ERROR 31048 [-/127.0.0.1/-/4ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 31048
+hostname: 大成子
+
+2022-10-25 23:09:59,798 ERROR 31048 [-/127.0.0.1/-/4ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 31048
+hostname: 大成子
+
+2022-10-25 23:10:04,265 ERROR 31048 [-/127.0.0.1/-/3ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 31048
+hostname: 大成子
+
+2022-10-25 23:10:04,461 ERROR 31048 [-/127.0.0.1/-/3ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 31048
+hostname: 大成子
+
+2022-10-25 23:10:04,672 ERROR 31048 [-/127.0.0.1/-/5ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 31048
+hostname: 大成子
+
+2022-10-25 23:10:04,852 ERROR 31048 [-/127.0.0.1/-/3ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 31048
+hostname: 大成子
+
+2022-10-25 23:10:05,037 ERROR 31048 [-/127.0.0.1/-/3ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 31048
+hostname: 大成子
+
+2022-10-25 23:10:05,237 ERROR 31048 [-/127.0.0.1/-/3ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 31048
+hostname: 大成子
+
+2022-10-25 23:10:05,423 ERROR 31048 [-/127.0.0.1/-/3ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 31048
+hostname: 大成子
+
+2022-10-25 23:10:05,629 ERROR 31048 [-/127.0.0.1/-/2ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 31048
+hostname: 大成子
+
+2022-10-25 23:10:25,288 ERROR 46236 [-/127.0.0.1/-/7ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 46236
+hostname: 大成子
+
+2022-10-25 23:10:26,069 ERROR 46236 [-/127.0.0.1/-/2ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 46236
+hostname: 大成子
+
+2022-10-25 23:10:26,285 ERROR 46236 [-/127.0.0.1/-/3ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 46236
+hostname: 大成子
+
+2022-10-25 23:10:26,477 ERROR 46236 [-/127.0.0.1/-/2ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 46236
+hostname: 大成子
+
+2022-10-25 23:10:26,677 ERROR 46236 [-/127.0.0.1/-/3ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 46236
+hostname: 大成子
+
+2022-10-25 23:10:34,363 ERROR 46236 [-/127.0.0.1/-/5ms GET /] nodejs.ReferenceError: E:\前端\egg_demo\eggdemo01\app\view\home.html:10
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    8| </head>
+    9| <body>
+ >> 10|     <form action="/add?_csrf=<%=csrf%>" method="POST">
+    11|         用户名： <input type="text" name="username"> <br><br>
+    12|         密  码： <input type="password" name="password" type="password"> <br><br>
+    13|         <button type="submit">提交</button>
+
+csrf is not defined
+    at eval ("E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html":12:25)
+    at home (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:703:17)
+    at tryHandleCache (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:274:36)
+    at Object.exports.renderFile (E:\前端\egg_demo\eggdemo01\node_modules\_ejs@3.1.8@ejs\lib\ejs.js:491:10)
+    at E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:16:11
+    at new Promise (<anonymous>)
+    at EjsView.[EjsView#_render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:15:12)
+    at EjsView.render (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view-ejs@3.0.0@egg-view-ejs\lib\view.js:28:36)
+    at ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:70:23)
+    at async HomeController.index (E:\前端\egg_demo\eggdemo01\app\controller\home.js:30:5)
+path: "E:\\前端\\egg_demo\\eggdemo01\\app\\view\\home.html"
+pid: 46236
+hostname: 大成子
+
+2022-10-26 21:24:19,752 ERROR 54112 [-/127.0.0.1/-/15ms POST /doLogin?_csrf=CKDsSaoU-JLbnzA9sNKrIvtbQH6LLXI_3FuA] nodejs.AssertionError: Can't find public/success from E:\前端\egg_demo\eggdemo01\app\view
+    at Map.resolve (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (E:\前端\egg_demo\eggdemo01\node_modules\_egg-view@2.1.3@egg-view\lib\context_view.js:50:22)
+    at async UserController.doLogin (E:\前端\egg_demo\eggdemo01\app\controller\user.js:14:9)
+    at async compressMiddleware (E:\前端\egg_demo\eggdemo01\node_modules\_koa-compress@5.1.0@koa-compress\lib\index.js:52:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 54112
+hostname: 大成子
+
